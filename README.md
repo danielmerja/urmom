@@ -32,6 +32,27 @@ print_urmom()
 
 This will display the ASCII art of "URMOM" in your terminal.
 
+## Command-Line Interface (CLI)
+
+You can also use the package directly in your terminal after installation. Just type:
+
+```bash
+urmom
+```
+
+This command will print the ASCII art directly in your terminal, without needing to write any Python code.
+
+```
+
+  _    _ _____  __  __  ____  __  __ 
+| |  | |  __ \|  \/  |/ __ \|  \/  |
+| |  | | |__) | \  / | |  | | \  / |
+| |  | |  _  /| |\/| | |  | | |\/| |
+| |__| | | \ \| |  | | |__| | |  | |
+ \____/|_|  \_\_|  |_|\____/|_|  |_|
+
+```
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.

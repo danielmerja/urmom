@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name="urmom",
-    version="0.1.0",
+    version="0.1.1",
     author="Daniel Merja",
-    author_email="your.email@example.com",
+    author_email="danielmerja@gmail.com",
     description="A Python package that prints 'URMOM' in ASCII art.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -16,4 +16,9 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    entry_points={
+        'console_scripts': [
+            'urmom=urmom.ascii_art:print_urmom',
+        ],
+    },
 )
