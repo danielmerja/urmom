@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "urmom"
+version = "0.1.1"
+authors = [
+  { name="Daniel Merja", email="danielmerja@gmail.com" },
+]
+description = "A Python package that prints 'URMOM' in ASCII art."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["ascii", "art", "funny", "urmom"]
+
+[project.urls]
+"Homepage" = "https://github.com/danielmerja/urmom"
+"Bug Tracker" = "https://github.com/danielmerja/urmom/issues"
+
+[project.scripts]
+urmom = "urmom.ascii_art:print_urmom"
